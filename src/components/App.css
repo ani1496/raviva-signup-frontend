@@ -1,0 +1,143 @@
+.app {
+  height: 100vh;
+  background-size: contain;
+}
+
+.image {
+  width: 250px;
+  margin: auto;
+  left: -30px;
+}
+
+.form-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  padding: 50px;
+  text-align: center;
+}
+
+.info {
+  padding: 70px;
+}
+
+.input-info {
+  text-align: center;
+}
+
+.input {
+  text-align: left;
+  align-items: center;
+  font-size: 0.7rem;
+  border-radius: 0;
+  border-bottom-width: 1px;
+  padding: 10px 10px 3px 10px;
+  -webkit-box-shadow: none;
+}
+
+.name.input:hover {
+  border-color: transparent;
+  border-bottom-color: #f8a75b;
+  border-bottom-width: 2px;
+}
+
+.name:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: transparent;
+  border-bottom-color: #f8a75b;
+  border-bottom-width: 2px;
+}
+
+.name {
+  -webkit-text-fill-color: #f8a75b;
+  border-color: transparent;
+  border-bottom-color: #f8a75b;
+}
+
+.last-name {
+  -webkit-text-fill-color: #f48957;
+  border-color: transparent;
+  border-bottom-color: #f48957;
+}
+
+.last-name.input:hover {
+  border-color: transparent;
+  border-bottom-color: #f48957;
+  border-bottom-width: 2px;
+}
+
+.last-name:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: transparent;
+  border-bottom-color: #f48957;
+  border-bottom-width: 2px;
+}
+
+.phone {
+  -webkit-text-fill-color: #2bb6bc;
+  border-color: transparent;
+  border-bottom-color: #2bb6bc;
+}
+
+.phone.input:hover {
+  border-color: transparent;
+  border-bottom-color: #2bb6bc;
+  border-bottom-width: 2px;
+}
+
+.phone:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: transparent;
+  border-bottom-color: #2bb6bc;
+  border-bottom-width: 2px;
+}
+
+.email {
+  -webkit-text-fill-color: #bed86b;
+  border-color: transparent;
+  border-bottom-color: #bed86b;
+}
+
+.email.input:hover {
+  border-color: transparent;
+  border-bottom-color: #bed86b;
+  border-bottom-width: 2px;
+}
+
+.email:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: transparent;
+  border-bottom-color: #bed86b;
+  border-bottom-width: 2px;
+}
+
+.icon {
+  top: -5px;
+}
+
+.button {
+  background-color: #705951;
+  -webkit-text-fill-color: white;
+  border-color: #705951;
+  width: 150px;
+  height: 45px;
+}
+
+.button:hover {
+  background-color: #71625c;
+  -webkit-text-fill-color: white;
+  border-color: #71625c;
+}
