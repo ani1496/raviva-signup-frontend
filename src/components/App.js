@@ -192,7 +192,7 @@ class App extends Component {
               className={`button ${this.state.isLoading ? 'is-loading' : ''}`}
               type="submit"
             >
-              {this.state.isLoading ? '' : 'Join'}
+              {this.state.isLoading ? '' : 'Sign In'}
             </button>
           </form>
         </div>
