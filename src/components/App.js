@@ -7,7 +7,7 @@ import axios from 'axios';
 import isPhoneNumber from 'is-phone-number';
 import isValidEmail from 'is-valid-email';
 
-const APIurl = 'http://localhost:3000';
+const APIurl = 'http://192.241.137.190:3000';
 
 class App extends Component {
   constructor(props) {
