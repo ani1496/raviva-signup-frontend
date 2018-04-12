@@ -1,6 +1,7 @@
 .app {
   height: 100vh;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
 }
 
 .image {
@@ -18,12 +19,13 @@
 }
 
 .form {
-  padding: 50px;
+  padding: 40px;
   text-align: center;
+  font-size: 0.8rem;
 }
 
 .info {
-  padding: 70px;
+  padding: 50px;
 }
 
 .input-info {
@@ -33,7 +35,7 @@
 .input {
   text-align: left;
   align-items: center;
-  font-size: 0.7rem;
+  font-size: 1rem;
   border-radius: 0;
   border-bottom-width: 1px;
   padding: 10px 10px 3px 10px;
@@ -125,7 +127,11 @@
 }
 
 .icon {
-  top: -5px;
+  top: -2px !important;
+  color: transparent;
+  pointer-events: none;
+  width: 1.2em !important;
+  z-index: 4;
 }
 
 .button {
